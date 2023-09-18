@@ -1,0 +1,2 @@
+#include<iostream>
+using namespace std;int main(){int a,b,c;cin>>a>>b>>c;cout << (a+b+c<=100&&a+b+c>=80?"A":(a+b+c<=79&&a+b+c>=75?"B+":(a+b+c<=74&&a+b+c>=70?"B":(a+b+c<=69&&a+b+c>=65?"C+":(a+b+c<=64&&a+b+c>=60?"C":(a+b+c<=59&&a+b+c>=55?"D+":(a+b+c<=54&&a+b+c>=50?"D":"F")))))));}
