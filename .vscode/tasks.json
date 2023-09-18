@@ -1,3 +1,4 @@
+
 {
     "tasks": [
         {
@@ -26,3 +27,23 @@
     ],
     "version": "2.0.0"
 }
+
+/*
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label":"echo",
+            "type": "shell",
+            "command": "g++",
+            "args": ["-g","${file}"],
+            "group": 
+            {
+                "kind": "build",
+                "isDefault": true
+            },
+        }
+    ],
+    
+}
+*/
